@@ -624,16 +624,16 @@ video {
   height: 100vh;
 }
 
-.h-auto{
-  height: auto;
-}
-
 .w-\[3\.5rem\]{
   width: 3.5rem;
 }
 
 .w-\[90\%\]{
   width: 90%;
+}
+
+.w-auto{
+  width: auto;
 }
 
 .w-fit{
@@ -643,10 +643,6 @@ video {
 
 .w-full{
   width: 100%;
-}
-
-.w-auto{
-  width: auto;
 }
 
 .-translate-x-1\/2{
@@ -724,16 +720,6 @@ video {
   line-height: 2.5rem;
 }
 
-.text-7xl{
-  font-size: 4.5rem;
-  line-height: 1;
-}
-
-.text-3xl{
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
 .font-bold{
   font-weight: 700;
 }
@@ -751,10 +737,6 @@ video {
 }
 
 @media (min-width: 768px){
-  .md\:h-full{
-    height: 100%;
-  }
-
   .md\:h-auto{
     height: auto;
   }
