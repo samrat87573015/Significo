@@ -1,0 +1,13 @@
+body[theme=black]{
+    background: #000;
+}
+body[theme=black] .section{
+    color: #fff;
+}
+
+.video_div{
+    clip-path: circle(var(--clip) at 50% 50%);
+}
+.marqq_text_block_item h3{
+    @apply sm:text-7xl text-3xl;
+}
