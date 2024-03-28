@@ -4,7 +4,12 @@ body[theme=black]{
 body[theme=black] .section{
     color: #fff;
 }
-
+body[theme=salmon]{
+    background: salmon;
+}
+body[theme=salmon] .section{
+    color: rgb(87, 10, 2);
+}
 .video_div{
     clip-path: circle(var(--clip) at 50% 50%);
 }
