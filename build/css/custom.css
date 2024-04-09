@@ -4,6 +4,21 @@ body[theme=black]{
 body[theme=black] .section{
     color: #fff;
 }
+
+body[theme=cyan]{
+    background: cyan;
+}
+body[theme=cyan] .section{
+    color: rgb(0, 26, 26);
+}
+
+body[theme=white]{
+    background: white;
+}
+body[theme=white] .section{
+    color: rgb(5, 5, 5);
+}
+
 body[theme=salmon]{
     background: salmon;
 }
@@ -27,4 +42,20 @@ body[theme=salmon] .section{
 }
 .team_item:hover .team_content::before{
     bottom: 0;
+}
+.testimonial_item:nth-child(odd){
+    justify-content: left;
+}
+.testimonial_item:nth-child(odd) .testiPara{
+    color: blue;
+}
+.testimonial_item:nth-child(even){
+    justify-content: right;
+}
+.testimonial_item:nth-child(even) .testiPara{
+    color: brown;
+}
+
+body{
+    transition: .3s ease-in-out;
 }
