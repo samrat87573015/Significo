@@ -77,7 +77,7 @@ function teamAnimation() {
       let teamImg = this.querySelector(".team_img");
       gsap.to(teamImg, {
         x: gsap.utils.mapRange(0, window.innerWidth, -200, 200, dets.clientX),
-        opacity: 1,
+        scale: 1,
         ease: Power4,
         duration: 0.5,
       });
@@ -86,7 +86,7 @@ function teamAnimation() {
     el.addEventListener("mouseleave", function (dets) {
       let teamImg = this.querySelector(".team_img");
       gsap.to(teamImg, {
-        opacity: 0,
+        scale: 0,
         ease: Power4,
         duration: 0.5,
       });
